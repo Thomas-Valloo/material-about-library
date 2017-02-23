@@ -37,13 +37,13 @@
             android:layout_marginTop="@dimen/mal_baseline"
             android:layout_marginBottom="@dimen/mal_baseline_half"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-            android:textColor="?mal_color_primary"
             tools:text="Author" />
 
-        <android.support.v7.widget.RecyclerView
-            android:id="@+id/mal_card_recyclerview"
+        <LinearLayout
+            android:id="@+id/mal_card_container"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:orientation="vertical"
             android:clipToPadding="false"
             android:paddingTop="@dimen/mal_baseline_half"
             android:paddingBottom="@dimen/mal_baseline_half"
