@@ -10,8 +10,6 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.danielstone.materialaboutlibrary.R;
-
 import java.util.ArrayList;
 
 public class MaterialAboutCard {

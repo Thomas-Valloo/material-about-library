@@ -9,8 +9,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.LinearLayout;
 
-import com.danielstone.materialaboutlibrary.R;
-
 import java.util.List;
 
 public abstract class MaterialAboutActivity extends AppCompatActivity {
